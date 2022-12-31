@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+          // import swal from 'sweetalert';
+          window.addEventListener('load', function(){
+            // swal("Here's the title!", "...and here's the text!");
+            for(let i=0;i<5;i++)
+            swal({
+  title: "Do you want to welcome 2023 with ur love?",
+  text: "Once said yes, you will be bounded for life!!!!",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+
+  
+})
+  
+.then((willDelete) => {
+  if (willDelete) {
+    swal("Uffo! you have been bounded for your entire life!!!", {
+      icon: "success",
+    });
+  } 
+  else {
+    swal({
+  title: "Aapko meri kasam",
+  text: "PLEASEEEE NAAA",
+  icon: "warning",
+  buttons: "HAA KRDE",
+  dangerMode: false,
+})
+swal("Abb to haa krni pdegiiii!!!")
+.then((value) => {
+  swal({title: "BUBU :)",
+  text: "SEE WE ARE SOULMATESS",
+  icon: "success",
+  button: "Aww yiss (KISSIIIII)!",}
+);
+});
+  }
+  
+});
+ });      
+    </script>
+</head>
+<body>
+  
+</body>
+</html>
+
